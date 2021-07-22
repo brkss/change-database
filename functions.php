@@ -24,7 +24,7 @@
     }
 
     // function to backup all database tables to sql file
-    function backup_tables($DBH, $tables, $filename) {
+    function backupTables($DBH, $tables, $filename) {
 
 
 
