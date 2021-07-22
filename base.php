@@ -18,18 +18,7 @@
         ); 
         $dbh = new PDO($dsn, $username, $password, $options);
 
-        
-
-        // pdo export database to a .sql file 
-        
-
-        // empty database : drop all tables ! 
-        //dropAllTables($dbh);
-
-        // execute file : new data !!
-        //executeDBFiles($dbh, './1626913595.sql');
-        //executeDBFiles($dbh, './db_text.sql');
-        
+                
         
 
     }catch(PDOException $e){
